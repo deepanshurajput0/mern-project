@@ -1,0 +1,37 @@
+.container{
+    max-width: 140rem;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 106, 255);
+    height: 4rem;
+    
+}
+
+ul{
+    display: flex;
+    gap: 3.2rem;
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+
+.logo-brand a{
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+li button{
+    height: 2.4rem;
+    width: 6rem;
+    background: none;
+    border: 2px solid white;
+    color: white;
+    font-size: 16px;
+}
